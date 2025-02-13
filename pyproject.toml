@@ -1,0 +1,12 @@
+[project]
+name = "bookmarks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "netscape-bookmarks-file-parser",
+]
+
+[tool.uv.sources]
+netscape-bookmarks-file-parser = { git = "https://github.com/FlyingWolFox/Netscape-Bookmarks-File-Parser.git" }
